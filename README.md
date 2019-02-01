@@ -1,4 +1,4 @@
-# rpd-saylidemux
+# rpd-fluidemux
 
 Project specific Fluidigm like demuxer
 
@@ -8,6 +8,6 @@ Install nim. Then run `nimble build`
 
 ## Usage
 
-See `./saylidemux -h`
+See `./fluidemux -h`
 
 

@@ -10,7 +10,7 @@ requires "yaml >= 0.11.0"
 
 srcDir = "src"
 
-bin = @["saylidemux"]
+bin = @["fluidemux"]
 
 skipDirs = @["tests"]
 skipExt = @["nim"]
