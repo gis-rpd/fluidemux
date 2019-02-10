@@ -150,6 +150,13 @@ proc main(fastq1: string, fastq2: string, barcodeYaml: string, outpref: string) 
 
 when isMainModule:
   import cligen
-  dispatch(main, short = {
+  dispatch(main, 
+    help = {
+      "fastq1":  "FastQ1",
+      "fastq2" : "FastQ2",
+      "barcodeYaml": "YAML file with barcodes to name mapping",
+      "outpref": "Output prefix"
+    },
+    short = {
           "fastq1": '1',
           "fastq2": '2'})

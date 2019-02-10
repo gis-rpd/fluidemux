@@ -1,8 +1,7 @@
-https://bitbucket.org/andreas-wilm/mrnaseqht_demux/src/master/mRNASeqHT_demultiplex.pl
+# Fluidigm Barcodes
 
-#   File: mRNASeqHT_demultiplex
-#   Date: 2015-08-19
-#   Version: 1.0.2
+- See https://bitbucket.org/andreas-wilm/mrnaseqht_demux/src/master/mRNASeqHT_demultiplex.pl
+- From File: mRNASeqHT_demultiplex, Date: 2015-08-19, Version: 1.0.2
 
 
 CACGTA	=>	'ROW01'	,
